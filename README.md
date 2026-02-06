@@ -21,17 +21,6 @@ This notebook was developed in Google Colab / Jupyter. Key packages used include
 - scikit-learn
 
 
-To reproduce results locally, create a virtual environment and install dependencies. For example:
-
-
-```bash
-python -m venv venv
-source venv/bin/activate  # mac/linux
-venv\Scripts\activate  # windows
-pip install -r requirements.txt
-```
-
-
 ## Quick Start — Run the Notebook
 
 1. Open the notebook (`MNIST.ipynb`) in Google Colab or Jupyter.
@@ -55,14 +44,6 @@ The notebook loads MNIST from `tensorflow.keras.datasets.mnist` or via `sklearn`
 - Detected model type: **neural network**.
 
 - The notebook builds a neural network; inspect the model cells for exact layer configuration.
-
-
-## Training Configuration
-
-- Epochs: `(not found)`
-- Batch size: `(not found)`
-- Optimizer: `(not found)`
-- Loss function: `(not found)`
 
 
 Training usually includes tracking metrics such as training loss, validation loss, training accuracy, and validation accuracy. If a `history` object is present, the notebook plots these curves and helps diagnose under/overfitting.
